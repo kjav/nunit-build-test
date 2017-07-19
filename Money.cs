@@ -79,7 +79,7 @@ namespace NUnit.Samples.Money
 
 		public IMoney Negate() 
 		{
-			return new Money(Amount, Currency);
+			return new Money(-Amount, Currency);
 		}
 
 		public IMoney Subtract(IMoney m) 
